@@ -9,5 +9,5 @@ result = conn.getresponse()
 print(result.status,result.reason)
 
 
-data = result.read()
-print(len(data))
+#data = result.read()
+#print(len(data))
